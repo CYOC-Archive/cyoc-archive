@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose your own change - Roll to Dodge!</title>
+	<meta http-equiv="content-Type" content="text/html; charset=windows-1252"/>
+	<meta name="robots" content="index,follow">
+	<link type="text/css" rel="stylesheet" href="/cyoc17/cyoc17.css?v=20221207c" media="all"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<script type="text/javascript" src="/cyoc17/cyoc17.js"></script>
+</head>
+<body>
+<div id="topbar">
+<div class="fw">
+<div id="login">
+You are not logged in. <a href="/user.php?module=User&amp;op=loginscreen">Log in</a></div>
+
+<a id="menu-mini" href="/index.php" onclick="toggleMiniMenu(); return false;">&nbsp;<span class="sprite sprite-cyoc-logo-mini"></span></a>	<nav id="menu"><a href="/index.php" class="hide-for-small">&nbsp;<span class="sprite sprite-cyoc-logo"></span></a><a href="/interactives"  class="selected">Interactives</a><a id="button-search" href="?showsearch=1" rel="nofollow" onclick="toggleSearch(); return false">&nbsp;<i class="fa fa-search " aria-hidden="true"></i></a></nav>
+</div></div>
+
+
+
+<ul id="result-tags"></ul><div id="wrapper"><div class="fw">
+<section id="search-panel"><div class="row"><div class="three columns small-12"><h2><i class="fa fa-search " aria-hidden="true"></i> Search</h2></div><div class="nine columns small-12"><form action="/interactives/search.php" method="get"><input type="hidden" name="showsearch" value="1" /><input placeholder="Search in interactives..." id="input-q" type="text" class="field" maxlength="40" name="q" /><button type="submit"><i class="fa fa-search " aria-hidden="true"></i></button><div id="search-more2"><div id="filters">in <span id="filter-story" class="filter">The Magic Shop</span> by <span id="filter-author" class="filter">anyone</span> tagged as <span id="filter-tags"><span class="filter">none</span></span></div><div id="float-search-filter-story" class="float-search-filter"><label for="float-search-filter-story">Story id:</label> <input type="text" id="search-filter-story" name="story" value="8" autocomplete="off" /></div><div id="float-search-filter-author" class="float-search-filter"><label for="float-search-filter-author">Author id:</label> <input type="text" id="search-filter-author" name="author" value="" disabled autocomplete="off" /></div><div id="float-search-filter-tag" class="float-search-filter"><label for="float-search-filter-tag">Search tag:</label> <input type="text" id="search-filter-tag" placeholder="Search tag..." /></div><input type="hidden" id="search-filter-tags" name="tags" value="" disabled/></div></form></div></div></section><section>	<h4 class="subtitle"><a href="/interactives/story_8.html">The Magic Shop</a> <a href="/interactives/story_8/outline.html"><i class="fa fa-sitemap fa-fw" aria-hidden="true"></i></a> <a href="/interactives/story_8/recent.html"><i class="fa fa-th-list fa-fw" aria-hidden="true"></i></a></h4>	<h2 class="title">Roll to Dodge!</h2><div class="row chapter-options"><div class="three columns"><a href="/interactives/chapter_11694.html" id="previouschapterlink"><i class="fa fa-level-up fa-flip-horizontal fa-fw" aria-hidden="true"></i><span> Previous chapter</span></a></div><div class="nine columns text-right"><a href="/interactives/chapter_203258/branch_203258.html" id="button-toggle-branch"  onclick="toggleBranch(203258, branchId); return false;"><i class="fa fa-list-ol " aria-hidden="true"></i><span> Branch</span></a>
+<a href="/interactives/chapter_203258/full.html" id="button-toggle-full"  onclick="toggleFull(11694); return false;"><i class="fa fa-book " aria-hidden="true"></i><span> Full view</span></a></div></div><div class="row chapter-options"><div class="twelve columns text-right"></div></div><div id="full"></div><div class="chapter-info">added by <span class="chapter-author"><a href="/interactives/user_25246.html">Dislogic</a></span>
+ <span class="chapter-date"><span class="timestamp" title="07/13/2022 15:56">2 years ago</span></span>
+<span class="tags"><a href="/interactives/search.php?tags=8"><abbr class="l" title="Other / none">O</abbr> </a><a href="/interactives/search.php?tags=95"><abbr>Superpowers</abbr> </a></span></div>
+<div id="author-note"><b>Author note:</b><br/>Roll to Dodge has manifested as a large number of unrelated forum games, so don&#39;t make it fanfiction of any. A suggestion is to either make the roll 1 / 2 / 3 / 4 / 5 / 6 options the results of an end-of-chapter choice, or to suggest things to roll and then let the next writer choose or roll the die themselves. </div><p id="chapter-text" class="serif">Each of these six-sided dice, when first rolled, is absorbed into the user. This grants them a power far more unreliable than your run-of-the-mill wish-granting object: to roll for their actions! They can choose whether to act normally for their abilities, or whether to push the phenomenal cosmic power of the Dodging Dice to try and probably fail horribly.<br />
+<br />
+The faces of the die:<br />
+1 - Epic failure, backfires horribly and causes more problems<br />
+2 - Failure to act, no consequences but delay or a mundane fumble (but this might be bad during time-sensitive defense or if there are very fumble-touchable objects nearby)<br />
+3 - Partial success, progress toward the goal but requires more work to be deemed a full success (anything from effective-0 to &#39;take one more mundane action to confirm&#39; could happen, averaging out towards &#39;you get a sense of the overall scope of this task and take the first major preparation steps&#39;)<br />
+4 - Success, action is carried out and works moderately or as intended<br />
+5 - Epic success, succeeds very positively or better than intended<br />
+6 - Overshoot, disproportionately large effect causes other problems.<br />
+<br />
+Penalty conditions usually nudge the dice down (e.g. -1), raw power boosters nudge the dice up (e.g. +1). Skills and reasonably controlled relevant equipment nudge the dice toward 5 (e.g. reduce odds of normal overshoots or crit failures while using the dice on that topic).<br />
+<br />
+A response roll can be done in an attempt to avoid danger. A die can be rolled for several different things in rapid succession or near-simultaneously, though this may become incredibly chaotic if one fails or overshoots. Performing too many rolls effectively-simultaneously (e.g. within one combat without time travel from an unrelated point) may experience significant penalties (e.g. -1 per extra action in the same volley). One die roll can cover something time-consuming or organizationally complicated (such as engineering a sci-fi magic device or starting a business), in which case time is subjectively experienced as going very quickly for a few days (or a necessary objective time) and life-related activities outside the action go okay. Survival is assumed unless the action backfires or is explicitly sacrificial. Using a die to make a massive world-changing wish can be quite disruptive if failed or overshooting. Dice users are explicitly advised to make a device that does something they want done right, so if they fail or overshoot they are more likely to have something they can prevent being used instead of misfiring reality.<br />
+<br />
+Die rollers assisting each other use the highest of contributing actions, but individual rolls affect the individual roller most. Dice rollers interfering with each other can &#39;botch&#39;, where the higher roll inverts the other roll&#39;s effect. Unconscious die rollers typically don&#39;t activate their Dodging Dice except to instinctively survive something lethal, and don&#39;t reduce their roll to below 2 (e.g. they cannot hard-fail the act of surviving without trying, at least not enough to injure themselves further). Dead die rollers are incapacitated, and may take significant time to form a ghost before they can try wishing themselves back to life if they care to resume life.<br />
+<br />
+In addition to the Dodging Dice, other less-omnipotently-scaled action dice exist in the world or can be created by status effects. The Dodging Dice are the &#39;default ruleset&#39;, where other dice powers might have different random tables and use conditions (e.g. more like a slot machine that can be activated every few seconds, or following RPG stat rules, or transforming body parts as per other entries).<br />
+<br />
+Assume a die roller becomes aware of the basic rules of their ability once their die is first obtained, and is informed of anything edge-case on encountering it. They are also aware of what they roll, and of any conditions of sufficient intensity to cause a roll/penalty/skill effect. It is possible for them to forget this afterward or not be in a state of mind to use it properly, but they generally know what they&#39;re doing to start off. In the event of not knowing they have dice, unaware usage tends to occur when narratively dramatic or overly invested in doing something that&#39;s not realistic for their abilities (e.g. dramatically transforming someone while having zero logical ability to do so, fixing all the collateral damage from someone else&#39;s die rolls). Certain conditions may force it to happen more often than that, and amnesia overshooting or undershooting very often may cause those conditions.</p>
+<hr/><h3>
+Who gets the dice first, or where?</h3>
+<ul id="subchapters" class="subchapter-list">
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> No options available - Create your own addition below!</li>
+</ul>
+
+<br/>Title suggestions for new chapters. Please feel free to use them or create your own below.
+<ul class="subchapter-list suggested-list">
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625464#write-chapter" onclick="setChoice(625464); return false;" id="suggested_625464">The Rolling Cup, holy grail fought over and quested after by transforming lesser-dice users</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625465#write-chapter" onclick="setChoice(625465); return false;" id="suggested_625465">One&#39;s on the shelf in a magic store</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625466#write-chapter" onclick="setChoice(625466); return false;" id="suggested_625466">Dice fall from the sky and bounce off a few people</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625467#write-chapter" onclick="setChoice(625467); return false;" id="suggested_625467">A gambler playing a game obtains phenomenal cosmic power by accident</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625468#write-chapter" onclick="setChoice(625468); return false;" id="suggested_625468">A confined facility full of large-scale puzzle rooms</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+	<li><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> <a href="/interactives/chapter_203258.html?next=625469#write-chapter" onclick="setChoice(625469); return false;" id="suggested_625469">The die is rummaging around the trash, only to be rolled by a fellow trash-rummager</a> <i class="fa fa-pencil " aria-hidden="true"></i></li>
+</ul>
+</section><a id="write-chapter"></a><section>	<h2 class="title">Write a new chapter</h2><div id="postchapter-errors"></div><form action="/interactives/postchapter.php" method="post" onsubmit="return validateChapterForm();">
+	<input type="hidden" name="parent" value="203258" />
+	<div class="input"><div class="label"><label for="name">Your name</label></div><div class="field"><input type="text" maxlength="100" id="name" name="name" /></div></div>
+	<div class="input"><div class="label"><label for="email_address">Your email address</label></div><div class="field"><input type="text" maxlength="100" id="email_address" name="email_address" /></div></div>
+<label for="username" class="humans">Human check: Leave this field empty</label>
+<input type="text" name="username" id="username" class="humans" />	<input type="hidden" name="preview" value="1" />
+	<div class="input"><div class="label"><label for="option_title">Option title <small>(how will it be listed among the options above)</small> <input type="hidden" name="suggested_title" id="suggested-title" value="0" /><input type="button" onclick="setChoice('0');" value="Reset" id="reset-option" /></label></div><div class="field"><input type="text" maxlength="100" id="option_title" name="option_title" /></div></div>
+	<div class="input"><div class="label"><label for="title">Chapter title</label></div><div class="field"><input type="text" maxlength="100" id="title" name="title" /></div></div>
+	<textarea name="description" id="textarea-description" class="serif" cols="30" rows="10" onkeyup="enableWarnOnLeaving();"></textarea>
+<div><b>List of options your readers will have: </b><ul id="suggested-options" class="suggested-options"></ul></div><hr/><div class="row"><div class="three columns small-12"><b>Tags: </b><br/><small style="display:block; padding-right:8px;">You need to select at least one TF type<br/>Tags must apply to the content in the current chapter only.<br/>Do not add tags for potential future chapters.</small></div><div class="nine columns small-12"><ul id="ul-tftypes">	<li><input type="checkbox" name="trans_type1" id="checkbox-trans_type1" value="1"  /> <label for="checkbox-trans_type1">Animal</label></li>	<li><input type="checkbox" name="trans_type2" id="checkbox-trans_type2" value="1"  /> <label for="checkbox-trans_type2">Age Regression</label></li>	<li><input type="checkbox" name="trans_type3" id="checkbox-trans_type3" value="1"  /> <label for="checkbox-trans_type3">Age Progression</label></li>	<li><input type="checkbox" name="trans_type4" id="checkbox-trans_type4" value="1"  /> <label for="checkbox-trans_type4">Body Modification (muscle, features, etc.)</label></li>	<li><input type="checkbox" name="trans_type5" id="checkbox-trans_type5" value="1"  /> <label for="checkbox-trans_type5">Inanimate</label></li>	<li><input type="checkbox" name="trans_type6" id="checkbox-trans_type6" value="1"  /> <label for="checkbox-trans_type6">Size (shrinking, growing)</label></li>	<li><input type="checkbox" name="trans_type7" id="checkbox-trans_type7" value="1"  /> <label for="checkbox-trans_type7">Transgender</label></li>	<li><input type="checkbox" name="trans_type8" id="checkbox-trans_type8" value="1"  /> <label for="checkbox-trans_type8">Other / none</label></li><li><input type="checkbox" name="tag0" id="tag0" value="0" onchange="checkTag(0)"/><input type="text" id="input-tag0" autocomplete="off" placeholder="Additional tag"/></li><li><input type="checkbox" name="tag1" id="tag1" value="0" onchange="checkTag(1)"/><input type="text" id="input-tag1" autocomplete="off" placeholder="Additional tag"/></li><li><input type="checkbox" name="tag2" id="tag2" value="0" onchange="checkTag(2)"/><input type="text" id="input-tag2" autocomplete="off" placeholder="Additional tag"/></li></ul></div></div><div class="row"><div class="three columns small-12"><b><label for="adult">Adult content:</label></b></div><div class="nine columns small-12"><span class="sprite sprite-adult" id="edit-adult-icon"></span><select name="adult" id="adult" onchange="updateAdultIcon();">	<option value="0" selected="selected">None</option>	<option value="n">Nudity</option>	<option value="m">Self pleasure male</option>	<option value="mm">M/M Sex</option>	<option value="mf">M/F Sex</option>	<option value="ff">F/F Sex</option>	<option value="f">Self pleasure female</option>	<option value="x">Sex beyond any of the above</option></select><input type="checkbox" name="violence" id="checkbox-violence" value="1" onchange="updateAdultIcon();""  /> <label for="checkbox-violence">Violence</label></div></div><div id="warning-message"><b>Read this before posting</b><br/>Any of the following is not permitted:<ul><li>comments (please use the Note option instead)</li><li>image links</li><li>short chapters</li><li>fan fiction (content based off a copyrighted work)</li></ul>All chapters not following these rules are subject to deletion at any time and those who abuse will be banned.<br/><br/><button onclick="hideWarning()" type="button"><i class="fa fa-check " aria-hidden="true"></i> I understand</button></div><div id="div-submit-chapter" style="display:none">	<input type="submit" class="button" value="Post chapter" />
+</form>
+
+</div></section>
+</div>
+<script type="text/javascript"><!--
+branchId=203258
+--></script>
+
+
+
+<div id="dialog-report" class="dialog"><form action="/interactives/report.php" method="post">
+	<input type="hidden" name="ok" value="1"/>
+	<input type="hidden" name="chapter" value="203258"/>
+	<div class="row">
+		<div class="four columns"><label for="report-reason">Reason</label></div>
+		<div class="eight columns">
+			<select id="report-reason" name="report-reason">
+				<option value="duplicate">Duplicate</option>
+				<option value="spam">Spam/garbage</option>
+				<option value="no_story">Non-story</option>
+				<option value="short">Short/padded chapters</option>
+				<option value="fanfic">Fanfic</option>
+				<option value="fix_comment">Comment in the story</option>
+				<option value="fix_tags">Incorrect tags</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+	</div>
+	<div class="row">
+		<div class="four columns"><label for="report-comment">Comment</label><br/><small>Optional</small></div>
+		<div class="eight columns">
+			<textarea id="report-comment" name="report-comment"></textarea>
+		</div>
+	</div>
+	<div class="dialog-buttons">
+		<button type="button" onclick="Dialogs.close()">Cancel</button>
+		<input type="submit" value="Report" class="orange" />
+	</div>
+</form></div>
+
+
+</section></div>
+</div>
+<div id="footer">
+	<div id="footer-links">
+		<a href="/index.php">Home</a> | 
+		<a href="/modules.php?op=modload&name=Stories&file=index">Stories</a> | 
+		<a href="/interactives/">Interactives</a> | <a href="/donations.html">Help Support CYOC - Donate Money, Ideas, Or Time</a>
+	</div>
+	CYOC is a donation based site for the transformation fandom. To find out how you can help check out our <a href="/donations.html" class="donation-link">donation page</a>.<br/><br/>
+	
+	CYOC Content: copyrighted CYOC and content creator
+	<h6>CYOC Code: &copy; created, and maintained 2000-2013 by <a href="http://www.hyperyote.com/" target="_blank">Kurst &#8220;YipYap&#8221; Hyperyote</a> custom made for the CYOC people. Feel free to say hi to him, he likes it! </h6>
+</div></body>
+</html>
